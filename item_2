@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/item_2.css">
+    <script src="https://kit.fontawesome.com/94642d9482.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    
+    <title>Iphone 7</title>
+    
+</head>
+<body>
+<title>CATALOGO </title>
+<body>
+<header>
+     <!-- AREA TOP SUPERIOR DO INDEX -->
+        <div class="nav">
+    <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="item_2">Iphone 7</a></li>
+        <li><a href="descricao_item2.html">Iphone 14</a></li>
+        
+        <li><a href="cadastro.html">Cadastrar</a></li>
+        <li><a href="login.php">Entrar</a></li>
+        
+      </ul>
+    
+      
+</div>
+</header>
+      <!-- FRETE -->
+  <main>
+ <div class="top-nav1">
+    <h2>Equipe Front </h1>
+    <p>Bem vindos </p>
+    <ul>
+      <li><i class="fa-regular fa-user"></i></li>
+      <a href="compra.php">
+        <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+    </a>
+      <li><i class="fa-regular fa-heart"></i></li>
+    </ul>
+</div>
+<!-- AREA DE PESQUISA -->
+<div class="pesquisa">
+    <div class="botao">  
+         <input type="search" id="busca" name="q" placeholder=" O que você está procurando?"><i class="fa-solid fa-magnifying-glass"></i>
+         
+        </div>
+      </div>
+<div class="celular">
+    <p><i class="fa-solid fa-truck"></i> <b>Frete grátis</b> para todo Brasil em compras a cima de R$1000 <i class="fa-solid fa-truck"></i> </p>
+    
+</div>
+<!-- CONTEUDO LINK-->
+<table>
+  <tr>
+
+    <!--<td>
+      <div class="links">
+        <ul>
+          <li><i class="fa-brands fa-apple"></i><a href="inicio1.html"> Início</a></li>
+          <li><i class="fa-brands fa-apple"></i><a href="index_item2.html" target="_blank"> iPhone 14 Pro Max</a></li>
+          <li><i class="fa-brands fa-apple"></i><a href="espec_item2.html" target="_blank"> Especificações iPhone 14 Pro Max</a></li>
+          <li><i class="fa-brands fa-apple"></i><a href="cores_item2.html" target="_blank"> Veja mais cores do iPhone 14 Pro Max</a></li>
+          <li><i class="fa-brands fa-apple"></i><a href="descricao_item2.html" target="_blank"> Descrição do iPhone 14 Pro Max</a></li>
+          <li><i class="fa-brands fa-apple"></i><a href="compra.html" target="_blank"> Carrinho de compras</a></li>
+          <li><i class="fa-brands fa-apple"></i><a href="pagamento.html" target="_blank"> Pagamento</a></li>
+        </ul>
+      </div>
+    </td>
+     <!-- MINHA IMAGEM DO PRODUTO-->
+    <td>
+      <div id="imagem">
+        <img src="img/lados-iphone2.jpg" alt="todos os lados do iPhone">
+      </div>
+    </td>
+  
+    <!-- MINHAS INFORMAÇÔES DO PRODUTO-->
+    <td>
+      <section class="conteudo" id="grid-conteudo">
+        <div class="grid">
+          <ul>
+            <li><i class="fa-solid fa-battery-full"></i> Até 29 horas de reprodução de vídeo³</li>
+            <li><i class="fa-regular fa-face-grin-wide"></i> Face ID </li>
+            <li><i class="fa-solid fa-tower-cell"></i> Sinal 5G</li>
+            <li><i class="fa-solid fa-fingerprint"></i> Touch ID</li>
+            <li><i class="fa-solid fa-camera"></i> Sistema de câmera dupla</li>
+            <li>Grande-angular de 12 MP Ultra-angular</li>
+            <li>Estabilização automática de imagem</li>
+            <li>SOS de emergência</li>
+            <li>Detecção de Acidente8</li>
+          </ul>
+        </div>
+      </section>
+    </td>
+  </tr>
+</table>
+
+<div class="valores">
+  <h1>R$ 2499.99</h1>
+  <p>Em até 8x sem juros no <b>cartão de crédito</b></p><br>
+  <a href="pagmento.html" class="btn">COMPRE AGORA MESMO</a>
+</div>
+</main>
+<!---------------------------- RODA PE---------------------- -->
+<footer class="footer">
+  <p>Outras formas de comprar: encontre uma Apple Store ou revendedor Apple na sua região.Ou ligue para 0800-761-0867</p>
+  <p> Rua Leopoldo Couto de Magalhães Jr.,700, 7ºandar,Itaim Bibi.São Paulo,SP.CEP:04542-000.</p>
+  <hr>
+ <p>Brasil</p> 
+ <p>Copyright @ 2022 Apple Inc.Todos os direitos reservados.</p>
+ <p>Os Serviços de Mídia da Apple são fornecidos pela Apple Services LATAM LLC.</p>
+</footer>
+
+
+</body>
+</html>

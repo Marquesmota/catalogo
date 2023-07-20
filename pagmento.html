@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: justify;
+      padding: 15px;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+    
+    .nav ul {
+      list-style-type: none;
+    }
+    
+    .nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    
+    .nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    .nav ul li a:hover{
+      color: #006aff;
+    }
+    
+    .pagamento {
+      font-size: 1.6rem;
+      background-color: #fff;
+      padding: 1.5rem;
+      margin: 0 auto;
+      max-width: 95%;
+      text-align: center;
+    }
+    
+    button#btn-limpar,
+    a#btn-enviar {
+      display: inline-block;
+      background-color: rgb(26, 255, 0);
+      color: #fff;
+      text-align: center;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button#btn-limpar:hover,
+    a#btn-enviar:hover {
+      background-color: rgb(0, 0, 224);
+    }
+
+    @media (max-width: 768px) {
+      button#btn-limpar,
+      a#btn-enviar {
+        width: 100%;
+      }
+    }
+    
+    footer {
+      text-align: center;
+      color: silver;
+      margin-top: 2rem;
+    }
+
+    footer p {
+      margin-bottom: 0.5rem;
+    }
+
+    footer img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .pagamento {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+
+  <title>PAGAMENTO</title>
+</head>
+
+<body>
+    <header>
+        <!-- AREA TOP SUPERIOR DO INDEX -->
+       <div class="nav">
+           <ul>
+               <li><a href="index.php">Home</a></li>
+               <li><a href="item_2">Iphone 7</a></li>
+               <li><a href="descricao_item2.html">Iphone 14</a></li>
+               <li><a href="cadastro.html">Cadastrar</a></li>
+               <li><a href="login.php">Entrar</a></li>
+           </ul>
+       </div>
+   </header>
+
+  <section class="pagamento">
+                    <h2>Escolha a forma de pagamento</h2>
+    <p>
+      <input name="Pagamento" type="radio" value="Cartão de crédito"> Cartão de Crédito
+      <br>
+      <input name="Pagamento" type="radio" value="Boleto Bancário"> Boleto Bancário
+      <br>
+      <input name="Pagamento" type="radio" value="PIX"> PIX
+    </p>
+
+             <h3>Cartões Disponíveis:</h3>
+    <p>
+      <input name="Cartao" type="radio" value="Cartão de crédito">
+      <button>Adicionar Novo Cartão</button>
+      <br>
+      <input name="Cartao" type="radio" value="Cartão de crédito">
+      <button>*** **** **** 4589</button>
+      <br>
+      <input name="Cartao" type="radio" value="Cartão de crédito">
+      <button>*** **** **** 6987</button>
+      <br>
+      <input name="Cartao" type="radio" value="Cartão de crédito">
+      <button>*** **** **** 0089</button>
+      <br>
+      <input name="Cartao" type="radio" value="Cartão de crédito">
+      <button>*** **** **** 7835</button>
+    </p>
+
+    <p>
+      <label for="parcelas">Parcelas:</label>
+      <select name="Parcelas" id="parcelas">
+        <option value="A vista">Pagamento à Vista</option>
+        <option value="2x">2x</option>
+        <option value="3x">3x</option>
+        <option value="4x">4x</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="cod-seguranca">Código de Segurança:</label>
+      <input name="Cod de segurança" id="cod-seguranca" type="text" placeholder="Insira o código de segurança do cartão">
+    </p>
+          <!--Botao de retornar ao index e finalizar a comprar indo pro Whats-->
+    <p>
+      <a id="btn-limpar" href="index.php" class="btn-limpar" target="_blank">CANCELAR</a>
+    </p>
+      <a id="btn-enviar" href="https://wa.me/5511961979653" target="_blank">FINALIZAR COMPRA</a>
+    </p>
+  </section>
+
+ <!---------------------------- RODA PE---------------------- -->
+<footer class="footer">
+  <p>Outras formas de comprar: encontre uma Apple Store ou revendedor Apple na sua região. Ou ligue para 0800-761-0867</p>
+  <p>Rua Leopoldo Couto de Magalhães Jr.,700, 7º andar, Itaim Bibi. São Paulo, SP. CEP:04542-000.</p>
+  <hr>
+  <p>Brasil</p> 
+  <p>Copyright @ 2022 Apple Inc. Todos os direitos reservados.</p>
+  <p>Os Serviços de Mídia da Apple são fornecidos pela Apple Services LATAM LLC.</p>
+</footer>
